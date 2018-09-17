@@ -1,4 +1,4 @@
-let numSum = num => {
+let numSum1 = num => {
   let result = 0;
   while (num > 0) {
     result += num--;
@@ -6,4 +6,7 @@ let numSum = num => {
   return result;
 };
 
-console.log(numSum(4));
+let numSum2 = num => num * (num + 1) / 2;
+
+console.log(numSum1(4));
+console.log(numSum2(4));
