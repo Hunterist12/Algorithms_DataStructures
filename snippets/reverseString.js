@@ -6,7 +6,7 @@ let reverse2 = str => {
     result += str[i];
   }
   return result;
-}
+};
 
 console.log(reverse1('hello'));
 console.log(reverse2('hello'));
